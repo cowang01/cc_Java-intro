@@ -42,14 +42,14 @@ public class CalculatorTest {
     @Test
     public void multiplyTotalIsZero(){
         calculatorOne.multiply(2.00);
-        assertEquals(0.00, calculatorOne.getTotal());
+        assertEquals(0.00, calculatorOne.getTotal(), 0.01);
     }
 
     @Test
     public void divideTotalIsTwo(){
         calculatorOne.add(10.00);
         calculatorOne.divide(5.00);
-        assertEquals(2.00, calculatorOne.getTotal());
+        assertEquals(2.00, calculatorOne.getTotal(), 0.01);
     }
 
     @Test

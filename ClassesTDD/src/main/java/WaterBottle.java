@@ -1,3 +1,6 @@
+//water bottle with max of 100 volume and input starting volume - increment of 10
+
+
 public class WaterBottle {
 
     private int volume;
@@ -5,6 +8,8 @@ public class WaterBottle {
     public WaterBottle(int startVolume){
         this.volume = startVolume;
     }
+
+
 
 
     public int getVolume(){

@@ -1,3 +1,7 @@
+
+//testing for printer class
+
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,6 +15,7 @@ public class PrinterTest {
     public void createNewPrinter(){
         lvl6 = new Printer(80, 50);
     }
+
 
 
 

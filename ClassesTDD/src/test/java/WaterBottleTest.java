@@ -1,3 +1,6 @@
+
+//Testing of water bottle class
+
 import org.junit.Before;
 import org.junit.Test;
 

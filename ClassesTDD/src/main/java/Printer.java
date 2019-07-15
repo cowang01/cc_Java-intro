@@ -1,3 +1,7 @@
+//Printer class with paper monitor, tonor monitor and fill up indicator upon either being empty when printing.
+//possible refactor for low indicator.
+
+
 public class Printer {
 
     private int paper;
